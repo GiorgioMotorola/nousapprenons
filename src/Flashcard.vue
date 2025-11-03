@@ -50,7 +50,6 @@ let allVerbs = [];
 
 async function loadData() {
   try {
-    // Absolute path from public folder
     const res = await fetch("/data/flashcards.json");
 
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -82,32 +81,35 @@ function nextCard() {
 async function playAudio(text) {
   try {
     const res = await fetch(`/.netlify/functions/voice?text=${encodeURIComponent(text)}`);
-    if (!res.ok) throw new Error("Serverless TTS error");
+
+    if (!res.ok) throw new Error(await res.text()); // show actual error from function
 
     const blob = await res.blob();
+
+    // Check if blob is actually audio
+    if (!blob.type.includes("audio")) throw new Error("Received non-audio blob");
+
     const audioUrl = URL.createObjectURL(blob);
     const audio = new Audio(audioUrl);
     audio.play();
   } catch (err) {
-    console.warn(
-      "Serverless TTS failed, using browser SpeechSynthesis fallback:",
-      err
-    );
+    console.warn("TTS failed, falling back to SpeechSynthesis:", err);
 
     if ("speechSynthesis" in window) {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "fr-FR";
       utterance.rate = 0.9;
+
       const voices = speechSynthesis.getVoices();
       const frenchVoice = voices.find((v) => v.lang.startsWith("fr"));
       if (frenchVoice) utterance.voice = frenchVoice;
+
       speechSynthesis.cancel();
       speechSynthesis.speak(utterance);
-    } else {
-      console.error("Browser does not support SpeechSynthesis API.");
     }
   }
 }
+
 
 
 onMounted(loadData);
