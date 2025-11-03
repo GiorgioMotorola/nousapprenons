@@ -49,11 +49,24 @@ const noun = ref(null);
 let allVerbs = [];
 
 async function loadData() {
-  const res = await fetch("/public/data/flashcards.json");
-  const data = await res.json();
-  allVerbs = data.verbs;
-  nextCard();
+  try {
+    // Absolute path from public folder
+    const res = await fetch("/data/flashcards.json");
+
+    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+
+    const data = await res.json();
+    allVerbs = data.verbs;
+
+    nextCard();
+  } catch (err) {
+    console.error("Could not load flashcards:", err);
+    verb.value = null;
+    noun.value = null;
+  }
 }
+
+
 
 function nextNoun() {
   if (!verb.value) return;
