@@ -1,0 +1,159 @@
+{
+  "verbs": [
+    {
+      "infinitive": "aller",
+      "meaning": "to go",
+      "conjugations": {
+        "Je": "vais",
+        "Tu": "vas",
+        "Il": "va",
+        "Elle": "va",
+        "Nous": "allons",
+        "Vous": "allez",
+        "Ils": "vont",
+        "Elles": "vont"
+      },
+      "nouns": [
+        {"article": "au", "word": "parc", "english": {"Je": "I am going to the park", "Tu": "You are going to the park", "Il": "He is going to the park", "Elle": "She is going to the park", "Nous": "We are going to the park", "Vous": "You are going to the park", "Ils": "They are going to the park", "Elles": "They are going to the park"}},
+        {"article": "à la", "word": "plage", "english": {"Je": "I am going to the beach", "Tu": "You are going to the beach", "Il": "He is going to the beach", "Elle": "She is going to the beach", "Nous": "We are going to the beach", "Vous": "You are going to the beach", "Ils": "They are going to the beach", "Elles": "They are going to the beach"}},
+        {"article": "au", "word": "restaurant", "english": {"Je": "I am going to the restaurant", "Tu": "You are going to the restaurant", "Il": "He is going to the restaurant", "Elle": "She is going to the restaurant", "Nous": "We are going to the restaurant", "Vous": "You are going to the restaurant", "Ils": "They are going to the restaurant", "Elles": "They are going to the restaurant"}},
+        {"article": "à l’", "word": "école", "english": {"Je": "I am going to school", "Tu": "You are going to school", "Il": "He is going to school", "Elle": "She is going to school", "Nous": "We are going to school", "Vous": "You are going to school", "Ils": "They are going to school", "Elles": "They are going to school"}}
+      ]
+    },
+    {
+      "infinitive": "apprendre",
+      "meaning": "to learn",
+      "conjugations": {
+        "Je": "apprends",
+        "Tu": "apprends",
+        "Il": "apprend",
+        "Nous": "apprenons",
+        "Vous": "apprenez",
+        "Ils": "apprennent"
+      },
+      "nouns": [
+        {"article": "le", "word": "français", "english": {"Je": "I learn French", "Tu": "You learn French", "Il": "He learns French", "Elle": "She learns French", "Nous": "We learn French", "Vous": "You learn French", "Ils": "They learn French", "Elles": "They learn French"}},
+        {"article": "la", "word": "biologie", "english": {"Je": "I learn biology", "Tu": "You learn biology", "Il": "He learns biology", "Elle": "She learns biology", "Nous": "We learn biology", "Vous": "You learn biology", "Ils": "They learn biology", "Elles": "They learn biology"}},
+        {"article": "les", "word": "mathématiques", "english": {"Je": "I learn math", "Tu": "You learn math", "Il": "He learns math", "Elle": "She learns math", "Nous": "We learn math", "Vous": "You learn math", "Ils": "They learn math", "Elles": "They learn math"}}
+      ]
+    },
+    {
+      "infinitive": "manger",
+      "meaning": "to eat",
+      "conjugations": {
+        "Je": "mange",
+        "Tu": "manges",
+        "Il": "mange",
+        "Nous": "mangeons",
+        "Vous": "mangez",
+        "Ils": "mangent"
+      },
+      "nouns": [
+        {"article": "le", "word": "pain", "english": {"Je": "I eat bread", "Tu": "You eat bread", "Il": "He eats bread", "Elle": "She eats bread", "Nous": "We eat bread", "Vous": "You eat bread", "Ils": "They eat bread", "Elles": "They eat bread"}},
+        {"article": "la", "word": "pizza", "english": {"Je": "I eat pizza", "Tu": "You eat pizza", "Il": "He eats pizza", "Elle": "She eats pizza", "Nous": "We eat pizza", "Vous": "You eat pizza", "Ils": "They eat pizza", "Elles": "They eat pizza"}},
+        {"article": "le", "word": "fromage", "english": {"Je": "I eat cheese", "Tu": "You eat cheese", "Il": "He eats cheese", "Elle": "She eats cheese", "Nous": "We eat cheese", "Vous": "You eat cheese", "Ils": "They eat cheese", "Elles": "They eat cheese"}}
+      ]
+    },
+    {
+      "infinitive": "boire",
+      "meaning": "to drink",
+      "conjugations": {
+        "Je": "bois",
+        "Tu": "bois",
+        "Il": "boit",
+        "Nous": "buvons",
+        "Vous": "buvez",
+        "Ils": "boivent"
+      },
+      "nouns": [
+        {"article": "de l’", "word": "eau", "english": {"Je": "I drink water", "Tu": "You drink water", "Il": "He drinks water", "Elle": "She drinks water", "Nous": "We drink water", "Vous": "You drink water", "Ils": "They drink water", "Elles": "They drink water"}},
+        {"article": "du", "word": "jus", "english": {"Je": "I drink juice", "Tu": "You drink juice", "Il": "He drinks juice", "Elle": "She drinks juice", "Nous": "We drink juice", "Vous": "You drink juice", "Ils": "They drink juice", "Elles": "They drink juice"}},
+        {"article": "de la", "word": "bière", "english": {"Je": "I drink beer", "Tu": "You drink beer", "Il": "He drinks beer", "Elle": "She drinks beer", "Nous": "We drink beer", "Vous": "You drink beer", "Ils": "They drink beer", "Elles": "They drink beer"}}
+      ]
+    },
+    {
+      "infinitive": "écouter",
+      "meaning": "to listen",
+      "conjugations": {"Je": "écoute", "Tu": "écoutes", "Il": "écoute", "Elle": "écoute", "Nous": "écoutons", "Vous": "écoutez", "Ils": "écoutent", "Elles": "écoutent"},
+      "nouns": [
+        {"article": "la", "word": "musique", "english": {"Je": "I listen to music", "Tu": "You listen to music", "Il": "He listens to music", "Elle": "She listens to music", "Nous": "We listen to music", "Vous": "You listen to music", "Ils": "They listen to music", "Elles": "They listen to music"}},
+        {"article": "la", "word": "radio", "english": {"Je": "I listen to the radio", "Tu": "You listen to the radio", "Il": "He listens to the radio", "Elle": "She listens to the radio", "Nous": "We listen to the radio", "Vous": "You listen to the radio", "Ils": "They listen to the radio", "Elles": "They listen to the radio"}}
+      ]
+    },
+    {
+      "infinitive": "acheter",
+      "meaning": "to buy",
+      "conjugations": {"Je": "achète", "Tu": "achètes", "Il": "achète", "Elle": "achète", "Nous": "achetons", "Vous": "achetez", "Ils": "achètent", "Elles": "achètent"},
+      "nouns": [
+        {"article": "un", "word": "livre", "english": {"Je": "I buy a book", "Tu": "You buy a book", "Il": "He buys a book", "Elle": "She buys a book", "Nous": "We buy a book", "Vous": "You buy a book", "Ils": "They buy a book", "Elles": "They buy a book"}},
+        {"article": "une", "word": "voiture", "english": {"Je": "I buy a car", "Tu": "You buy a car", "Il": "He buys a car", "Elle": "She buys a car", "Nous": "We buy a car", "Vous": "You buy a car", "Ils": "They buy a car", "Elles": "They buy a car"}}
+      ]
+    },
+    {
+      "infinitive": "vendre",
+      "meaning": "to sell",
+      "conjugations": {"Je": "vends", "Tu": "vends", "Il": "vend", "Elle": "vend", "Nous": "vendons", "Vous": "vendez", "Ils": "vendent", "Elles": "vendent"},
+      "nouns": [
+        {"article": "une", "word": "maison", "english": {"Je": "I sell a house", "Tu": "You sell a house", "Il": "He sells a house", "Elle": "She sells a house", "Nous": "We sell a house", "Vous": "You sell a house", "Ils": "They sell a house", "Elles": "They sell a house"}},
+        {"article": "un", "word": "vélo", "english": {"Je": "I sell a bike", "Tu": "You sell a bike", "Il": "He sells a bike", "Elle": "She sells a bike", "Nous": "We sell a bike", "Vous": "You sell a bike", "Ils": "They sell a bike", "Elles": "They sell a bike"}}
+      ]
+    },
+    {
+      "infinitive": "courir",
+      "meaning": "to run",
+      "conjugations": {"Je": "cours", "Tu": "cours", "Il": "court", "Elle": "court", "Nous": "courons", "Vous": "courez", "Ils": "courent", "Elles": "courent"},
+      "nouns": [
+        {"article": "", "word": "vite", "english": {"Je": "I run fast", "Tu": "You run fast", "Il": "He runs fast", "Elle": "She runs fast", "Nous": "We run fast", "Vous": "You run fast", "Ils": "They run fast", "Elles": "They run fast"}}
+      ]
+    },
+    {
+      "infinitive": "parler",
+      "meaning": "to speak",
+      "conjugations": {"Je": "parle", "Tu": "parles", "Il": "parle", "Elle": "parle", "Nous": "parlons", "Vous": "parlez", "Ils": "parlent", "Elles": "parlent"},
+      "nouns": [
+        {"article": "le", "word": "français", "english": {"Je": "I speak French", "Tu": "You speak French", "Il": "He speaks French", "Elle": "She speaks French", "Nous": "We speak French", "Vous": "You speak French", "Ils": "They speak French", "Elles": "They speak French"}}
+      ]
+    },
+    {
+      "infinitive": "chanter",
+      "meaning": "to sing",
+      "conjugations": {"Je": "chante", "Tu": "chantes", "Il": "chante", "Elle": "chante", "Nous": "chantons", "Vous": "chantez", "Ils": "chantent", "Elles": "chantent"},
+      "nouns": [
+        {"article": "une", "word": "chanson", "english": {"Je": "I sing a song", "Tu": "You sing a song", "Il": "He sings a song", "Elle": "She sings a song", "Nous": "We sing a song", "Vous": "You sing a song", "Ils": "They sing a song", "Elles": "They sing a song"}}
+      ]
+    },
+    {
+      "infinitive": "danser",
+      "meaning": "to dance",
+      "conjugations": {"Je": "danse", "Tu": "danses", "Il": "danse", "Elle": "danse", "Nous": "dansons", "Vous": "dansez", "Ils": "dansent", "Elles": "dansent"},
+      "nouns": [
+        {"article": "", "word": "bien", "english": {"Je": "I dance well", "Tu": "You dance well", "Il": "He dances well", "Elle": "She dances well", "Nous": "We dance well", "Vous": "You dance well", "Ils": "They dance well", "Elles": "They dance well"}}
+      ]
+    },
+    {
+      "infinitive": "voyager",
+      "meaning": "to travel",
+      "conjugations": {"Je": "voyage", "Tu": "voyages", "Il": "voyage", "Elle": "voyage", "Nous": "voyageons", "Vous": "voyagez", "Ils": "voyagent", "Elles": "voyagent"},
+      "nouns": [
+        {"article": "en", "word": "France", "english": {"Je": "I travel to France", "Tu": "You travel to France", "Il": "He travels to France", "Elle": "She travels to France", "Nous": "We travel to France", "Vous": "You travel to France", "Ils": "They travel to France", "Elles": "They travel to France"}}
+      ]
+    },
+    {
+      "infinitive": "nager",
+      "meaning": "to swim",
+      "conjugations": {"Je": "nage", "Tu": "nages", "Il": "nage", "Elle": "nage", "Nous": "nageons", "Vous": "nagez", "Ils": "nagent", "Elles": "nagent"},
+      "nouns": [
+        {"article": "à la", "word": "piscine", "english": {"Je": "I swim at the pool", "Tu": "You swim at the pool", "Il": "He swims at the pool", "Elle": "She swims at the pool", "Nous": "We swim at the pool", "Vous": "You swim at the pool", "Ils": "They swim at the pool", "Elles": "They swim at the pool"}}
+      ]
+    },
+    {
+      "infinitive": "travailler",
+      "meaning": "to work",
+      "conjugations": {"Je": "travaille", "Tu": "travailles", "Il": "travaille", "Elle": "travaille", "Nous": "travaillons", "Vous": "travaillez", "Ils": "travaillent", "Elles": "travaillent"},
+      "nouns": [
+        {"article": "au", "word": "bureau", "english": {"Je": "I work at the office", "Tu": "You work at the office", "Il": "He works at the office", "Elle": "She works at the office", "Nous": "We work at the office", "Vous": "You work at the office", "Ils": "They work at the office", "Elles": "They work at the office"}},
+        {"article": "à la", "word": "usine", "english": {"Je": "I work at the factory", "Tu": "You work at the factory", "Il": "He works at the factory", "Elle": "She works at the factory", "Nous": "We work at the factory", "Vous": "You work at the factory", "Ils": "They work at the factory", "Elles": "They work at the factory"}}
+      ]
+    }
+  ]
+}
