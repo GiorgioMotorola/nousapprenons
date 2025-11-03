@@ -49,7 +49,7 @@ const noun = ref(null);
 let allVerbs = [];
 
 async function loadData() {
-  const res = await fetch("/src/data/flashcards.json");
+  const res = await fetch("/public/data/flashcards.json");
   const data = await res.json();
   allVerbs = data.verbs;
   nextCard();
